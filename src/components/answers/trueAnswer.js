@@ -11,7 +11,7 @@ module.exports = (animationStart, animationTrue) => {
     audio1.load();
     audio1.play();
   }
-  setTimeout(explode, 2500);
+  setTimeout(explode, 3000);
 
   animationStart(animationTrue);
 };

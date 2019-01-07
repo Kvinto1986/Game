@@ -1,43 +1,162 @@
 [
-  {"sound":"duck.mp3","word":"duck"},
-  {"sound":"father.mp3","word":"father"},
-  {"sound":"flat.mp3","word":"flat"},
-  {"sound":"grass.mp3","word":"grass"},
-  {"sound":"house.mp3","word":"house"},
-  {"sound":"mother.mp3","word":"mother"},
-  {"sound":"music.mp3","word":"music"},
-  {"sound":"peace.mp3","word":"peace"},
-  {"sound":"potato.mp3","word":"potato"},
-  {"sound":"ball.mp3","word":"ball"},
-  {"sound":"book.mp3","word":"book"},
-  {"sound":"brother.mp3","word":"brother"},
-  {"sound":"butterfly.mp3","word":"butterfly"},
-  {"sound":"children.mp3","word":"children"},
-  {"sound":"circus.mp3","word":"circus"},
-  {"sound":"daughter.mp3","word":"daughter"},
-  {"sound":"exercise.mp3","word":"exercise"},
-  {"sound":"face.mp3","word":"face"},
-  {"sound":"football.mp3","word":"football"},
-  {"sound":"game.mp3","word":"game"},
-  {"sound":"hair.mp3","word":"hair"},
-  {"sound":"home.mp3","word":"home"},
-  {"sound":"lamp.mp3","word":"lamp"},
-  {"sound":"leg.mp3","word":"leg"},
-  {"sound":"name.mp3","word":"name"},
-  {"sound":"nose.mp3","word":"nose"},
-  {"sound":"park.mp3","word":"park"},
-  {"sound":"picture.mp3","word":"picture"},
-  {"sound":"pupil.mp3","word":"pupil"},
-  {"sound":"school.mp3","word":"school"},
-  {"sound":"sister.mp3","word":"sister"},
-  {"sound":"son.mp3","word":"son"},
-  {"sound":"star.mp3","word":"star"},
-  {"sound":"teacher.mp3","word":"teacher"},
-  {"sound":"toy.mp3","word":"toy"},
-  {"sound":"water.mp3","word":"water"},
-  {"sound":"dream.mp3","word":"dream"},
-  {"sound":"eye.mp3","word":"eye"},
-  {"sound":"fire.mp3","word":"fire"},
-  {"sound":"head.mp3","word":"head"}
-
+  {
+    "sound": "duck.mp3",
+    "word": "duck"
+  },
+  {
+    "sound": "father.mp3",
+    "word": "father"
+  },
+  {
+    "sound": "flat.mp3",
+    "word": "flat"
+  },
+  {
+    "sound": "grass.mp3",
+    "word": "grass"
+  },
+  {
+    "sound": "house.mp3",
+    "word": "house"
+  },
+  {
+    "sound": "mother.mp3",
+    "word": "mother"
+  },
+  {
+    "sound": "music.mp3",
+    "word": "music"
+  },
+  {
+    "sound": "peace.mp3",
+    "word": "peace"
+  },
+  {
+    "sound": "potato.mp3",
+    "word": "potato"
+  },
+  {
+    "sound": "ball.mp3",
+    "word": "ball"
+  },
+  {
+    "sound": "book.mp3",
+    "word": "book"
+  },
+  {
+    "sound": "brother.mp3",
+    "word": "brother"
+  },
+  {
+    "sound": "butterfly.mp3",
+    "word": "butterfly"
+  },
+  {
+    "sound": "children.mp3",
+    "word": "children"
+  },
+  {
+    "sound": "circus.mp3",
+    "word": "circus"
+  },
+  {
+    "sound": "daughter.mp3",
+    "word": "daughter"
+  },
+  {
+    "sound": "exercise.mp3",
+    "word": "exercise"
+  },
+  {
+    "sound": "face.mp3",
+    "word": "face"
+  },
+  {
+    "sound": "football.mp3",
+    "word": "football"
+  },
+  {
+    "sound": "game.mp3",
+    "word": "game"
+  },
+  {
+    "sound": "hair.mp3",
+    "word": "hair"
+  },
+  {
+    "sound": "home.mp3",
+    "word": "home"
+  },
+  {
+    "sound": "lamp.mp3",
+    "word": "lamp"
+  },
+  {
+    "sound": "leg.mp3",
+    "word": "leg"
+  },
+  {
+    "sound": "name.mp3",
+    "word": "name"
+  },
+  {
+    "sound": "nose.mp3",
+    "word": "nose"
+  },
+  {
+    "sound": "park.mp3",
+    "word": "park"
+  },
+  {
+    "sound": "picture.mp3",
+    "word": "picture"
+  },
+  {
+    "sound": "pupil.mp3",
+    "word": "pupil"
+  },
+  {
+    "sound": "school.mp3",
+    "word": "school"
+  },
+  {
+    "sound": "sister.mp3",
+    "word": "sister"
+  },
+  {
+    "sound": "son.mp3",
+    "word": "son"
+  },
+  {
+    "sound": "star.mp3",
+    "word": "star"
+  },
+  {
+    "sound": "teacher.mp3",
+    "word": "teacher"
+  },
+  {
+    "sound": "toy.mp3",
+    "word": "toy"
+  },
+  {
+    "sound": "water.mp3",
+    "word": "water"
+  },
+  {
+    "sound": "dream.mp3",
+    "word": "dream"
+  },
+  {
+    "sound": "eye.mp3",
+    "word": "eye"
+  },
+  {
+    "sound": "fire.mp3",
+    "word": "fire"
+  },
+  {
+    "sound": "head.mp3",
+    "word": "head"
+  }
 ]

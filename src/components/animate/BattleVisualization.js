@@ -30,7 +30,12 @@ module.exports = (tasksArr, answersObj, modal, drawObj, animateObj,
       content: div,
       timer: 3000,
       button: false
-    });
+    })
+      .then();
+    const audio = new Audio();
+    audio.src = '../../resources/sound/o-pozabavimsja.mp3';
+    audio.load();
+    audio.play();
   };
 
   const ctx = document.getElementById('canvas').getContext('2d');
@@ -247,8 +252,6 @@ module.exports = (tasksArr, answersObj, modal, drawObj, animateObj,
 
   function openModal () {
     cancelAnimationFrame(animationStop);
-    // animationStart(animationAttackMonsterDown)
-    // endGame(human);
     modal(tasksArr, answersObj.trueAnswer, answersObj.falseAnswer, answersObj.healAnswer,
       animationStart, animationAttackMonsterUp, animationAttackHumanUp, animationHealUp, swal);
   }

@@ -1,89 +1,346 @@
 [
-  {"flag":"Albania.png","country":"Албании"},
-  {"flag":"Andorra.png","country":"Андорры"},
-  {"flag":"Armenia.png","country":"Армении"},
-  {"flag":"Azerbaijan.png","country":"Азербайджана"},
-  {"flag":"Bolivia.png","country":"Боливии"},
-  {"flag":"Bulgaria.png","country":"Болгарии"},
-  {"flag":"Cameroon.png","country":"Камеруна"},
-  {"flag":"Chile.png","country":"Чили"},
-  {"flag":"Colombia.png","country":"Колумбии"},
-  {"flag":"Costa-Rica.png","country":"Коста-Рики"},
-  {"flag":"Cuba.png","country":"Кубы"},
-  {"flag":"Cyprus.png","country":"Кипра"},
-  {"flag":"Ecuador.png","country":"Эквадора"},
-  {"flag":"Egypt.png","country":"Египта"},
-  {"flag":"Estonia.png","country":"Эстонии"},
-  {"flag":"Georgia.png","country":"Грузии"},
-  {"flag":"Greece.png","country":"Греции"},
-  {"flag":"Hong-Kong.png","country":"Гонконга"},
-  {"flag":"Hungary.png","country":"Венгрии"},
-  {"flag":"India.png","country":"Индии"},
-  {"flag":"Iran.png","country":"Ирана"},
-  {"flag":"Iraq.png","country":"Ирака"},
-  {"flag":"Jamaica.png","country":"Ямайки"},
-  {"flag":"Japan.png","country":"Японии"},
-  {"flag":"Kazakhstan.png","country":"Казахстана"},
-  {"flag":"Latvia.png","country":"Латвии"},
-  {"flag":"Lithuania.png","country":"Литвы"},
-  {"flag":"Luxembourg.png","country":"Люксембурга"},
-  {"flag":"Macedonia.png","country":"Македонии"},
-  {"flag":"Malta.png","country":"Мальты"},
-  {"flag":"Moldova.png","country":"Молдовы"},
-  {"flag":"Monaco.png","country":"Монако"},
-  {"flag":"Morocco.png","country":"Морокко"},
-  {"flag":"New-Zealand.png","country":"Новой Зеландии"},
-  {"flag":"Nigeria.png","country":"Нигерии"},
-  {"flag":"Pakistan.png","country":"Пакистана"},
-  {"flag":"Paraguay.png","country":"Парагвая"},
-  {"flag":"Peru.png","country":"Перу"},
-  {"flag":"Romania.png","country":"Румынии"},
-  {"flag":"Saudi-Arabia.png","country":"Саудовской Аравии"},
-  {"flag":"Senegal.png","country":"Сенегала"},
-  {"flag":"Serbia.png","country":"Сербии"},
-  {"flag":"Slovakia.png","country":"Словакии"},
-  {"flag":"Slovenia.png","country":"Словении"},
-  {"flag":"South-Africa.png","country":"ЮАР"},
-  {"flag":"Sweden.png","country":"Швеции"},
-  {"flag":"Syria.png","country":"Сирии"},
-  {"flag":"Thailand.png","country":"Тайланда"},
-  {"flag":"Tunisia.png","country":"Туниса"},
-  {"flag":"Uruguay.png","country":"Уругвая"},
-  {"flag":"Venezuela.png","country":"Венесуэлы"},
-  {"flag":"Vietnam.png","country":"Вьетнама"},
-  {"flag":"Wales.png","country":"Уэльса"},
-  {"flag":"Argentina.png","country":"Аргентины"},
-  {"flag":"Australia.png","country":"Австралии"},
-  {"flag":"Austria.png","country":"Австрии"},
-  {"flag":"Belarus.png","country":"Беларуси"},
-  {"flag":"Belgium.png","country":"Бельгии"},
-  {"flag":"Brazil.png","country":"Бразилии"},
-  {"flag":"Canada.png","country":"Канады"},
-  {"flag":"China.png","country":"Китая"},
-  {"flag":"Croatia.png","country":"Хорватии"},
-  {"flag":"Czech-Republic.png","country":"Чехии"},
-  {"flag":"Denmark.png","country":"Дании"},
-  {"flag":"England.png","country":"Англии"},
-  {"flag":"Finland.png","country":"Финляндии"},
-  {"flag":"France.png","country":"Франции"},
-  {"flag":"Germany.png","country":"Германии"},
-  {"flag":"Iceland.png","country":"Исландии"},
-  {"flag":"Ireland.png","country":"Ирландии"},
-  {"flag":"Israel.png","country":"Израиля"},
-  {"flag":"Italy.png","country":"Италии"},
-  {"flag":"Mexico.png","country":"Мексики"},
-  {"flag":"Netherlands.png","country":"Голландии"},
-  {"flag":"North-Korea.png","country":"Северой Кореи"},
-  {"flag":"Norway.png","country":"Норвегии"},
-  {"flag":"Poland.png","country":"Польши"},
-  {"flag":"Portugal.png","country":"Португалии"},
-  {"flag":"Russia.png","country":"России"},
-  {"flag":"Scotland.png","country":"Шотландии"},
-  {"flag":"South-Korea.png","country":"Южной Кореи"},
-  {"flag":"Spain.png","country":"Испании"},
-  {"flag":"Switzerland.png","country":"Швейцарии"},
-  {"flag":"Turkey.png","country":"Турции"},
-  {"flag":"Ukraine.png","country":"Украины"},
-  {"flag":"United-States.png","country":"США"}
-
+  {
+    "flag": "Albania.png",
+    "country": "Албании"
+  },
+  {
+    "flag": "Andorra.png",
+    "country": "Андорры"
+  },
+  {
+    "flag": "Armenia.png",
+    "country": "Армении"
+  },
+  {
+    "flag": "Azerbaijan.png",
+    "country": "Азербайджана"
+  },
+  {
+    "flag": "Bolivia.png",
+    "country": "Боливии"
+  },
+  {
+    "flag": "Bulgaria.png",
+    "country": "Болгарии"
+  },
+  {
+    "flag": "Cameroon.png",
+    "country": "Камеруна"
+  },
+  {
+    "flag": "Chile.png",
+    "country": "Чили"
+  },
+  {
+    "flag": "Colombia.png",
+    "country": "Колумбии"
+  },
+  {
+    "flag": "Costa-Rica.png",
+    "country": "Коста-Рики"
+  },
+  {
+    "flag": "Cuba.png",
+    "country": "Кубы"
+  },
+  {
+    "flag": "Cyprus.png",
+    "country": "Кипра"
+  },
+  {
+    "flag": "Ecuador.png",
+    "country": "Эквадора"
+  },
+  {
+    "flag": "Egypt.png",
+    "country": "Египта"
+  },
+  {
+    "flag": "Estonia.png",
+    "country": "Эстонии"
+  },
+  {
+    "flag": "Georgia.png",
+    "country": "Грузии"
+  },
+  {
+    "flag": "Greece.png",
+    "country": "Греции"
+  },
+  {
+    "flag": "Hong-Kong.png",
+    "country": "Гонконга"
+  },
+  {
+    "flag": "Hungary.png",
+    "country": "Венгрии"
+  },
+  {
+    "flag": "India.png",
+    "country": "Индии"
+  },
+  {
+    "flag": "Iran.png",
+    "country": "Ирана"
+  },
+  {
+    "flag": "Iraq.png",
+    "country": "Ирака"
+  },
+  {
+    "flag": "Jamaica.png",
+    "country": "Ямайки"
+  },
+  {
+    "flag": "Japan.png",
+    "country": "Японии"
+  },
+  {
+    "flag": "Kazakhstan.png",
+    "country": "Казахстана"
+  },
+  {
+    "flag": "Latvia.png",
+    "country": "Латвии"
+  },
+  {
+    "flag": "Lithuania.png",
+    "country": "Литвы"
+  },
+  {
+    "flag": "Luxembourg.png",
+    "country": "Люксембурга"
+  },
+  {
+    "flag": "Macedonia.png",
+    "country": "Македонии"
+  },
+  {
+    "flag": "Malta.png",
+    "country": "Мальты"
+  },
+  {
+    "flag": "Moldova.png",
+    "country": "Молдовы"
+  },
+  {
+    "flag": "Monaco.png",
+    "country": "Монако"
+  },
+  {
+    "flag": "Morocco.png",
+    "country": "Морокко"
+  },
+  {
+    "flag": "New-Zealand.png",
+    "country": "Новой Зеландии"
+  },
+  {
+    "flag": "Nigeria.png",
+    "country": "Нигерии"
+  },
+  {
+    "flag": "Pakistan.png",
+    "country": "Пакистана"
+  },
+  {
+    "flag": "Paraguay.png",
+    "country": "Парагвая"
+  },
+  {
+    "flag": "Peru.png",
+    "country": "Перу"
+  },
+  {
+    "flag": "Romania.png",
+    "country": "Румынии"
+  },
+  {
+    "flag": "Saudi-Arabia.png",
+    "country": "Саудовской Аравии"
+  },
+  {
+    "flag": "Senegal.png",
+    "country": "Сенегала"
+  },
+  {
+    "flag": "Serbia.png",
+    "country": "Сербии"
+  },
+  {
+    "flag": "Slovakia.png",
+    "country": "Словакии"
+  },
+  {
+    "flag": "Slovenia.png",
+    "country": "Словении"
+  },
+  {
+    "flag": "South-Africa.png",
+    "country": "ЮАР"
+  },
+  {
+    "flag": "Sweden.png",
+    "country": "Швеции"
+  },
+  {
+    "flag": "Syria.png",
+    "country": "Сирии"
+  },
+  {
+    "flag": "Thailand.png",
+    "country": "Тайланда"
+  },
+  {
+    "flag": "Tunisia.png",
+    "country": "Туниса"
+  },
+  {
+    "flag": "Uruguay.png",
+    "country": "Уругвая"
+  },
+  {
+    "flag": "Venezuela.png",
+    "country": "Венесуэлы"
+  },
+  {
+    "flag": "Vietnam.png",
+    "country": "Вьетнама"
+  },
+  {
+    "flag": "Wales.png",
+    "country": "Уэльса"
+  },
+  {
+    "flag": "Argentina.png",
+    "country": "Аргентины"
+  },
+  {
+    "flag": "Australia.png",
+    "country": "Австралии"
+  },
+  {
+    "flag": "Austria.png",
+    "country": "Австрии"
+  },
+  {
+    "flag": "Belarus.png",
+    "country": "Беларуси"
+  },
+  {
+    "flag": "Belgium.png",
+    "country": "Бельгии"
+  },
+  {
+    "flag": "Brazil.png",
+    "country": "Бразилии"
+  },
+  {
+    "flag": "Canada.png",
+    "country": "Канады"
+  },
+  {
+    "flag": "China.png",
+    "country": "Китая"
+  },
+  {
+    "flag": "Croatia.png",
+    "country": "Хорватии"
+  },
+  {
+    "flag": "Czech-Republic.png",
+    "country": "Чехии"
+  },
+  {
+    "flag": "Denmark.png",
+    "country": "Дании"
+  },
+  {
+    "flag": "England.png",
+    "country": "Англии"
+  },
+  {
+    "flag": "Finland.png",
+    "country": "Финляндии"
+  },
+  {
+    "flag": "France.png",
+    "country": "Франции"
+  },
+  {
+    "flag": "Germany.png",
+    "country": "Германии"
+  },
+  {
+    "flag": "Iceland.png",
+    "country": "Исландии"
+  },
+  {
+    "flag": "Ireland.png",
+    "country": "Ирландии"
+  },
+  {
+    "flag": "Israel.png",
+    "country": "Израиля"
+  },
+  {
+    "flag": "Italy.png",
+    "country": "Италии"
+  },
+  {
+    "flag": "Mexico.png",
+    "country": "Мексики"
+  },
+  {
+    "flag": "Netherlands.png",
+    "country": "Голландии"
+  },
+  {
+    "flag": "North-Korea.png",
+    "country": "Северой Кореи"
+  },
+  {
+    "flag": "Norway.png",
+    "country": "Норвегии"
+  },
+  {
+    "flag": "Poland.png",
+    "country": "Польши"
+  },
+  {
+    "flag": "Portugal.png",
+    "country": "Португалии"
+  },
+  {
+    "flag": "Russia.png",
+    "country": "России"
+  },
+  {
+    "flag": "Scotland.png",
+    "country": "Шотландии"
+  },
+  {
+    "flag": "South-Korea.png",
+    "country": "Южной Кореи"
+  },
+  {
+    "flag": "Spain.png",
+    "country": "Испании"
+  },
+  {
+    "flag": "Switzerland.png",
+    "country": "Швейцарии"
+  },
+  {
+    "flag": "Turkey.png",
+    "country": "Турции"
+  },
+  {
+    "flag": "Ukraine.png",
+    "country": "Украины"
+  },
+  {
+    "flag": "United-States.png",
+    "country": "США"
+  }
 ]

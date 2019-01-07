@@ -1,6 +1,8 @@
 
 import firebase from 'firebase/app';
 
+import 'firebase/database';
+
 import swal from 'sweetalert';
 
 import $ from 'jquery';
@@ -23,7 +25,7 @@ import flags from './components/tasks/flags/flags';
 
 import geography from './components/tasks/geography/geography';
 
-import battleAnimation from './components/animate/battleAnimation';
+import battleAnimation from './components/animate/BattleVisualization';
 
 import drawBreathUp from './components/animate/drawBreathUp';
 
@@ -66,8 +68,6 @@ import healAnswer from './components/answers/healAnswer';
 import endGame from './components/endGame/endGame';
 
 import loadGame from './components/loading/loading';
-
-import 'firebase/database';
 
 window.jQuery = $;
 window.$ = $;

@@ -28,7 +28,7 @@ module.exports = (trueAnswer, falseAnswer, animationStart,
       swal({
         closeOnClickOutside: false,
         closeOnEsc: false,
-        title: `Переведите слово: ${randomWord.eng}`,
+        title: `Переведите слово с английского: ${randomWord.eng}`,
         text: 'Введите правильный ответ:',
         content: form,
         button: false

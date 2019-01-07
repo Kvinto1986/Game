@@ -1,36 +1,134 @@
 [
-  {"pic":"Darwin.jpg","word":"Дарвин"},
-  {"pic":"Einstein.jpg","word":"Эйнштейн"},
-  {"pic":"Gates.jpg","word":"Гейтс"},
-  {"pic":"gitler.jpg","word":"Гитлер"},
-  {"pic":"Jobs.jpg","word":"Джобс"},
-  {"pic":"Napoleon.jpg","word":"Наполеон"},
-  {"pic":"Newton.jpg","word":"Ньютон"},
-  {"pic":"Stalin.jpg","word":"Сталин"},
-  {"pic":"Armstrong.jpg","word":"Армстронг"},
-  {"pic":"batman.jpg","word":"Бэтмен"},
-  {"pic":"cezar.jpg","word":"Цезарь"},
-  {"pic":"cherch.jpg","word":"Черчилль"},
-  {"pic":"chingishun.jpg","word":"Чингисхан"},
-  {"pic":"columb.jpg","word":"Колумб"},
-  {"pic":"deadpool.jpg","word":"Дедпул"},
-  {"pic":"disney.jpg","word":"Дисней"},
-  {"pic":"flash.jpg","word":"Флэш"},
-  {"pic":"gagarin.jpg","word":"Гагарин"},
-  {"pic":"gogol.jpg","word":"Гоголь"},
-  {"pic":"hulk.jpg","word":"Халк"},
-  {"pic":"joker.jpg","word":"Джокер"},
-  {"pic":"lenin.jpg","word":"Ленин"},
-  {"pic":"lomonosov.jpg","word":"Ломоносов"},
-  {"pic":"lermontov.jpg","word":"Лермонтов"},
-  {"pic":"mask.jpg","word":"Маск"},
-  {"pic":"pushkin.jpg","word":"Пушкин"},
-  {"pic":"Rasputin.jpg","word":"Распутин"},
-  {"pic":"shekspir.jpg","word":"Шекспир"},
-  {"pic":"Superman.jpg","word":"Супермен"},
-  {"pic":"Thor.jpg","word":"Тор"},
-  {"pic":"Washingthon.jpg","word":"Вашингтон"},
-  {"pic":"Wolverine.jpg","word":"Россомаха"},
-  {"pic":"zukerberg.jpg","word":"Цукерберг"}
-
+  {
+    "pic": "Darwin.jpg",
+    "word": "Дарвин"
+  },
+  {
+    "pic": "Einstein.jpg",
+    "word": "Эйнштейн"
+  },
+  {
+    "pic": "Gates.jpg",
+    "word": "Гейтс"
+  },
+  {
+    "pic": "gitler.jpg",
+    "word": "Гитлер"
+  },
+  {
+    "pic": "Jobs.jpg",
+    "word": "Джобс"
+  },
+  {
+    "pic": "Napoleon.jpg",
+    "word": "Наполеон"
+  },
+  {
+    "pic": "Newton.jpg",
+    "word": "Ньютон"
+  },
+  {
+    "pic": "Stalin.jpg",
+    "word": "Сталин"
+  },
+  {
+    "pic": "Armstrong.jpg",
+    "word": "Армстронг"
+  },
+  {
+    "pic": "batman.jpg",
+    "word": "Бэтмен"
+  },
+  {
+    "pic": "cezar.jpg",
+    "word": "Цезарь"
+  },
+  {
+    "pic": "cherch.jpg",
+    "word": "Черчилль"
+  },
+  {
+    "pic": "chingishun.jpg",
+    "word": "Чингисхан"
+  },
+  {
+    "pic": "columb.jpg",
+    "word": "Колумб"
+  },
+  {
+    "pic": "deadpool.jpg",
+    "word": "Дедпул"
+  },
+  {
+    "pic": "disney.jpg",
+    "word": "Дисней"
+  },
+  {
+    "pic": "flash.jpg",
+    "word": "Флэш"
+  },
+  {
+    "pic": "gagarin.jpg",
+    "word": "Гагарин"
+  },
+  {
+    "pic": "gogol.jpg",
+    "word": "Гоголь"
+  },
+  {
+    "pic": "hulk.jpg",
+    "word": "Халк"
+  },
+  {
+    "pic": "joker.jpg",
+    "word": "Джокер"
+  },
+  {
+    "pic": "lenin.jpg",
+    "word": "Ленин"
+  },
+  {
+    "pic": "lomonosov.jpg",
+    "word": "Ломоносов"
+  },
+  {
+    "pic": "lermontov.jpg",
+    "word": "Лермонтов"
+  },
+  {
+    "pic": "mask.jpg",
+    "word": "Маск"
+  },
+  {
+    "pic": "pushkin.jpg",
+    "word": "Пушкин"
+  },
+  {
+    "pic": "Rasputin.jpg",
+    "word": "Распутин"
+  },
+  {
+    "pic": "shekspir.jpg",
+    "word": "Шекспир"
+  },
+  {
+    "pic": "Superman.jpg",
+    "word": "Супермен"
+  },
+  {
+    "pic": "Thor.jpg",
+    "word": "Тор"
+  },
+  {
+    "pic": "Washingthon.jpg",
+    "word": "Вашингтон"
+  },
+  {
+    "pic": "Wolverine.jpg",
+    "word": "Россомаха"
+  },
+  {
+    "pic": "zukerberg.jpg",
+    "word": "Цукерберг"
+  }
 ]

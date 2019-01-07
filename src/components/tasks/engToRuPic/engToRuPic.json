@@ -1,41 +1,150 @@
 [
-  {"pic":"banana.jpg","word":"banana"},
-  {"pic":"bee.jpg","word":"bee"},
-  {"pic":"carrot.jpg","word":"carrot"},
-  {"pic":"cow.jpg","word":"cow"},
-  {"pic":"cucumber.jpg","word":"cucumber"},
-  {"pic":"elephant.jpg","word":"elephant"},
-  {"pic":"lemon.jpg","word":"lemon"},
-  {"pic":"lion.jpg","word":"lion"},
-  {"pic":"orange.jpeg","word":"orange"},
-
-  {"pic":"bear.jpg","word":"bear"},
-  {"pic":"bus.jpg","word":"bus"},
-  {"pic":"cake.jpg","word":"cake"},
-  {"pic":"chicken.jpeg","word":"chicken"},
-  {"pic":"clock.jpg","word":"clock"},
-  {"pic":"crocodile.jpg","word":"crocodile"},
-  {"pic":"doll.jpg","word":"doll"},
-  {"pic":"egg.jpg","word":"egg"},
-  {"pic":"fish.jpg","word":"fish"},
-  {"pic":"fox.jpg","word":"fox"},
-  {"pic":"frog.jpg","word":"frog"},
-  {"pic":"giraffe.png","word":"giraffe"},
-  {"pic":"hare.jpg","word":"hare"},
-  {"pic":"horse.jpg","word":"horse"},
-  {"pic":"milk.jpg","word":"milk"},
-  {"pic":"monkey.jpg","word":"monkey"},
-  {"pic":"mouse.jpg","word":"mouse"},
-  {"pic":"parrot.jpg","word":"parrot"},
-  {"pic":"pencil.jpg","word":"pencil"},
-  {"pic":"pig.jpg","word":"pig"},
-  {"pic":"plate.jpeg","word":"plate"},
-  {"pic":"rabbit.jpeg","word":"rabbit"},
-  {"pic":"sheep.jpg","word":"sheep"},
-  {"pic":"ship.jpg","word":"ship"},
-  {"pic":"snake.jpg","word":"snake"},
-  {"pic":"tiger.jpg","word":"tiger"},
-  {"pic":"train.jpg","word":"train"},
-  {"pic":"wolf.png","word":"wolf"}
-
+  {
+    "pic": "banana.jpg",
+    "word": "banana"
+  },
+  {
+    "pic": "bee.jpg",
+    "word": "bee"
+  },
+  {
+    "pic": "carrot.jpg",
+    "word": "carrot"
+  },
+  {
+    "pic": "cow.jpg",
+    "word": "cow"
+  },
+  {
+    "pic": "cucumber.jpg",
+    "word": "cucumber"
+  },
+  {
+    "pic": "elephant.jpg",
+    "word": "elephant"
+  },
+  {
+    "pic": "lemon.jpg",
+    "word": "lemon"
+  },
+  {
+    "pic": "lion.jpg",
+    "word": "lion"
+  },
+  {
+    "pic": "orange.jpeg",
+    "word": "orange"
+  },
+  {
+    "pic": "bear.jpg",
+    "word": "bear"
+  },
+  {
+    "pic": "bus.jpg",
+    "word": "bus"
+  },
+  {
+    "pic": "cake.jpg",
+    "word": "cake"
+  },
+  {
+    "pic": "chicken.jpeg",
+    "word": "chicken"
+  },
+  {
+    "pic": "clock.jpg",
+    "word": "clock"
+  },
+  {
+    "pic": "crocodile.jpg",
+    "word": "crocodile"
+  },
+  {
+    "pic": "doll.jpg",
+    "word": "doll"
+  },
+  {
+    "pic": "egg.jpg",
+    "word": "egg"
+  },
+  {
+    "pic": "fish.jpg",
+    "word": "fish"
+  },
+  {
+    "pic": "fox.jpg",
+    "word": "fox"
+  },
+  {
+    "pic": "frog.jpg",
+    "word": "frog"
+  },
+  {
+    "pic": "giraffe.png",
+    "word": "giraffe"
+  },
+  {
+    "pic": "hare.jpg",
+    "word": "hare"
+  },
+  {
+    "pic": "horse.jpg",
+    "word": "horse"
+  },
+  {
+    "pic": "milk.jpg",
+    "word": "milk"
+  },
+  {
+    "pic": "monkey.jpg",
+    "word": "monkey"
+  },
+  {
+    "pic": "mouse.jpg",
+    "word": "mouse"
+  },
+  {
+    "pic": "parrot.jpg",
+    "word": "parrot"
+  },
+  {
+    "pic": "pencil.jpg",
+    "word": "pencil"
+  },
+  {
+    "pic": "pig.jpg",
+    "word": "pig"
+  },
+  {
+    "pic": "plate.jpeg",
+    "word": "plate"
+  },
+  {
+    "pic": "rabbit.jpeg",
+    "word": "rabbit"
+  },
+  {
+    "pic": "sheep.jpg",
+    "word": "sheep"
+  },
+  {
+    "pic": "ship.jpg",
+    "word": "ship"
+  },
+  {
+    "pic": "snake.jpg",
+    "word": "snake"
+  },
+  {
+    "pic": "tiger.jpg",
+    "word": "tiger"
+  },
+  {
+    "pic": "train.jpg",
+    "word": "train"
+  },
+  {
+    "pic": "wolf.png",
+    "word": "wolf"
+  }
 ]

@@ -5,6 +5,6 @@ module.exports = (animationStart, animationHeal) => {
     audio1.load();
     audio1.play();
   }
-  setTimeout(explode, 2300);
+  setTimeout(explode, 1800);
   animationStart(animationHeal);
 };
