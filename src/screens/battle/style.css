@@ -104,39 +104,9 @@ body {
 }
 
 #loading{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-
-    width: 60vw;
+    width: 90vw;
     height: 2vw;
 
-    opacity: 0;
-    border: 3px solid #D38B0E;
-    border-radius: 15px;
-}
-
-#loading div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-
-    background-color: aliceblue;
-
-}
-
-#hLoading {
-
-    width: 60vw;
-
-    opacity: 0;
-    text-align: center;
     color: white;
 }
 
