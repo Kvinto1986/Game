@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="../../components/modal-dialog/style.css">
+    <link rel="shortcut icon" href="../../resources/Wow.png" type="image/png">
+</head>
+<body>
+<audio id="audioPlay" src="../../resources/sound/Song%20of%20Elune.mp3" autoplay loop >
+</audio>
+
+<div class="login-page">
+    <div class="login">
+
+        <form class="loginForm" method="post" onSubmit="return false;">
+            <h2>Введи свое имя, герой!</h2>
+            <input type="text" placeholder="Ваше имя" name="charName" id="charName" required ><br>
+            <input name="startGame" type="submit" value="Начать игру">
+        </form>
+
+    </div>
+    <h1 id="loading"></h1>
+
+</div>
+
+<div class="battle-page">
+
+    <div class="header">
+        <button class="sound-control"><img src="../../resources/sound/sound-off-icon.png" alt="sound-off-icon"></button>
+        <div class="char-bar">
+            <h2 id="char-name"></h2>
+            <div class="hp-bar-human">
+                <div id="char-hp">
+                </div>
+            </div>
+        </div>
+        <div class="char-bar">
+            <img src="../../resources/backgrounds/vs.png" alt="vs">
+        </div>
+        <div class="char-bar">
+
+            <h2 id="monster-name"></h2>
+            <div class="hp-bar-monster">
+                <div id="monster-hp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="choose-spell">Выбрать действие</button>
+
+    <canvas id="canvas" height="900" width="1920"></canvas>
+
+</div>
+
+<script src="../../dist/bundle.js"></script>
+</body>
+</html>

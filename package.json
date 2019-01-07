@@ -1,0 +1,36 @@
+{
+  "name": "kvinto1986-2018Q3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/kvinto1986-2018Q3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/kvinto1986-2018Q3/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/kvinto1986-2018Q3#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb-standard": "^2.1.6",
+    "jasmine": "^3.3.1",
+    "webpack": "^4.28.3",
+    "firebase": "^5.7.2",
+    "jquery": "^3.3.1",
+    "jsdom": "13.1.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "^5.2.0",
+    "mocha-jsdom": "^2.0.0",
+    "sweetalert": "^2.1.2",
+    "webpack-cli": "^3.1.2"
+  }
+}

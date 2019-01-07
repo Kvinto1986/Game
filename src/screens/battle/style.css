@@ -1,0 +1,289 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.login-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    justify-self: center;
+
+
+    width: 100vw;
+    height: 98.3vh;
+
+    background: url("../../resources/backgrounds/World-Of-Warcraft-demon.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    width: 40vw;
+    height: 10vw;
+
+    border: 3px solid #97672a;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.login h2 {
+    width: 40vw;
+
+    font-size: 1.4vw;
+    margin-top: 1%;
+    text-align: center;
+    font-family: Luminari;
+    font-weight: bold;
+    color: #D38B0E;
+    text-shadow: -0 -1px 2px #302206,
+    0 -1px 2px #302206,
+    -0 1px 2px #302206,
+    0 1px 2px #302206,
+    -1px -0 2px #302206,
+    1px -0 2px #302206,
+    -1px 0 2px #302206,
+    1px 0 2px #302206,
+    -1px -1px 2px #302206,
+    1px -1px 2px #302206,
+    -1px 1px 2px #302206,
+    1px 1px 2px #302206,
+    -1px -1px 2px #302206,
+    1px -1px 2px #302206,
+    -1px 1px 2px #302206,
+    1px 1px 2px #302206;
+}
+
+.loginForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    width: 25vw;
+    height: 6vw;
+}
+
+.loginForm input:nth-of-type(1) {
+    width: 25vw;
+    height: 1.5vw;
+
+    font-size: 1.3vw;
+    border: 2px darkslategray solid;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.loginForm input:nth-of-type(2) {
+    width: 12vw;
+    height: 2vw;
+
+    margin-top: 8%;
+
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 7px;
+    font-size: 1vw;
+}
+
+#loading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    width: 60vw;
+    height: 2vw;
+
+    opacity: 0;
+    border: 3px solid #D38B0E;
+    border-radius: 15px;
+}
+
+#loading div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+
+}
+
+#hLoading {
+
+    width: 60vw;
+
+    opacity: 0;
+    text-align: center;
+    color: white;
+}
+
+.battle-page {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 98.3vh;
+}
+
+#canvas{
+    width: 100%;
+    height: 95%;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-between;
+    align-items: center;
+
+    width: 96vw;
+    height: 20vh;
+
+    margin-top: -18vw;
+
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    border: 3px solid #97672a;
+}
+
+.char-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: start;
+    align-items: center;
+
+
+    width: 32vw;
+    height: 100%;
+}
+
+.char-bar img {
+    width: 7vw;
+    height: 7vw;
+}
+
+.hp-bar-human, .hp-bar-monster{
+    width: 25vw;
+    height: 20%;
+
+    border: 3px solid #97672a;
+    border-radius: 17px;
+}
+
+#char-hp, #monster-hp{
+    width: 100%;
+    height: 100%;
+
+    background-color: #7e0907;
+    border-radius: 15px;
+    transition: 1s;
+}
+.hp-bar-monster{
+    transform: rotate(180deg);
+}
+
+
+#char-name, #monster-name {
+    width: 100%;
+
+    font-size: 2vw;
+    text-align: center;
+    font-family: Luminari;
+    font-weight: bold;
+    color: #D38B0E;
+    text-shadow: -0 -1px 2px #302206,
+    0 -1px 2px #302206,
+    -0 1px 2px #302206,
+    0 1px 2px #302206,
+    -1px -0 2px #302206,
+    1px -0 2px #302206,
+    -1px 0 2px #302206,
+    1px 0 2px #302206,
+    -1px -1px 2px #302206,
+    1px -1px 2px #302206,
+    -1px 1px 2px #302206,
+    1px 1px 2px #302206,
+    -1px -1px 2px #302206,
+    1px -1px 2px #302206,
+    -1px 1px 2px #302206,
+    1px 1px 2px #302206;
+}
+
+.sound-control{
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+    align-self: start;
+    justify-self: start;
+
+    width: 3vw;
+    height: 3vw;
+
+    margin-top: 1vw;
+    margin-left: 1vw;
+
+    background-color: #D38B0E;
+    border: 3px solid #D38B0E;
+    border-radius: 5px;
+
+}
+
+.sound-control img{
+    width: 2vw;
+    height: 2vw;
+}
+
+#choose-spell {
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+
+    margin-top: -11%;
+
+    background-color: gold;
+    border: 3px solid #97672a;
+    font-family: Luminari;
+    font-size: 1.5vw;
+    webkit-box-shadow: 0px 8px 43px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 8px 43px 3px rgba(0, 0, 0, 1);
+    box-shadow: 0px 8px 43px 3px rgba(0, 0, 0, 1);
+}
+
+
+

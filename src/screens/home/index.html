@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="prefetch" href="../../resources/backgrounds/World-Of-Warcraft-demon.jpg">
+    <link rel="shortcut icon" href="../../resources/Wow.png" type="image/png">
+</head>
+<body>
+<header>
+    <a class="logo" href="index.html"><img src="images/warcraft-4_logo.png" alt="Warcraft4Logo"></a>
+    <ul>
+        <li><a href="#game-rules">Об игре</a></li>
+        <li><a href="#game-about">Правила</a></li>
+        <li><a href="#author">Автор</a></li>
+        <li>
+            <button class="sound-control"><img src="../../resources/sound/sound-off-icon.png" alt="sound-off-icon">
+            </button>
+        </li>
+    </ul>
+</header>
+
+<div class="game-about">
+    <audio id="audioPlay" src="../../resources/sound/Main%20Title_%20Legends%20of%20Azeroth.mp3" autoplay loop>
+    </audio>
+    <h1>Игра</h1>
+    <h1>WarCraft &#8547; </h1>
+
+    <div class="startGame">
+        <a href="#" class="logoStart"><img class="img-logo" src="images/AlianseLogo.png" alt="AlianseLogo">
+            <h2>Начать игру!</h2></a>
+    </div>
+
+</div>
+<a id="game-rules"></a>
+<div class="game-about">
+
+    <div class="game-rules">
+        <h1>Об игре</h1>
+        <h2>Интеллектуальная игра от создателей HALF LIFE 3 и S.T.A.L.K.E.R. 2! Потрясающая графика, музыка и геймплей
+            окунут тебя в суровый мир Военного Ремесла. С помощю своих знаний победи как можно больше монстров
+            и в конце тебя ждет большая награда (нет)</h2>
+        <h2>Управление с помощью клавиатуры (опционально):</h2>
+        <h2>Начальный экран:</h2>
+        <h3><img src="images/enter.png" alt="enter"> - запуск игры </h3>
+        <h2>Экран игры:</h2>
+        <h3><img src="images/space.png" alt="enter"> - нажатие кнопки "Выбор действия"</h3>
+        <h3><img src="images/tab.png" alt="tab"> - в окне выбора действий: выбор действия </h3>
+        <h3><img src="images/arrows.png" alt="arrows"> - переключение между элементами окна вопроса </h3>
+        <h3><img src="images/enter.png" alt="enter"> - ввод ответа на вопрос </h3>
+    </div>
+
+
+</div>
+<a id="game-about"></a>
+<div class="game-about">
+    <h3>Правила игры</h3>
+    <div class="game-screen">
+
+        <img src="images/screen1.png" alt="screen1">
+        <h3>Начало игры</h3>
+        <p>Добро пожаловать в игру! <br>В начале игры у персонажей 100% здоровья</p>
+    </div>
+
+    <div class="game-screen">
+        <img src="images/screen2.png" alt="screen2">
+        <h3>Выбор действия</h3>
+        <p>Нажмите на клавишу "Выбрать действие" и выберите одно из действий вашего персонажа.
+            Атака наносит урон врагу, лечение восстанавливает вашему персонажу здоровье.</p>
+    </div>
+
+    <div class="game-screen">
+        <img src="images/screen3.png" alt="screen3">
+        <h3>Вопросы</h3>
+        <p>После выбора действия вам нужно ответить на вопрос. Вопросы выбираются случайным образом из разных
+            категорий</p>
+    </div>
+
+    <div class="game-screen">
+        <img src="images/screen4.png" alt="screen4">
+        <h3>Ответы на вопрос</h3>
+        <p>При правильном ответе на вопрос ваш персонаж наносит урон врагу или восстанавливает здоровье в зависимости от
+            действия,
+            при неправильном ответе враг наносит вам урон. </p>
+    </div>
+
+    <div class="game-screen">
+        <img src="images/screen5.png" alt="screen5">
+        <h3>Урон и лечение</h3>
+        <p>При атаке у врага или персонажа снимается 20% здоровья, соответственно при лечении у вашего персонажа
+            восстанавливается 20% здоровья
+            (учтите, что при неправильном ответе на вопрос при действии "лечение" враг нанесет вам урон!)</p>
+    </div>
+
+    <div class="game-screen">
+        <img src="images/screen6.png" alt="screen6">
+        <h3>Следующий раунд</h3>
+        <p>Если у врага уровень здоровья упадет до 0, начнется следующий раунд и появится новый враг со 100% здоровья.
+            Если здоровье вашего персонажа упадет до 0, игра закончится. Ваша задача победить как можно больше
+            монстров!</p>
+    </div>
+
+
+</div>
+<a id="author"></a>
+<footer>
+    <h1>&copy; Yan Polyn 2019</h1>
+    <a href="https://github.com/Kvinto1986" target="_blank"><img src="images/github.png" alt="github"></a>
+    <a href="https://vk.com/id24167201" target="_blank"><img src="images/vk-logo.png" alt="vk-logo"></a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="homeControl.js"></script>
+</body>
+</html>
