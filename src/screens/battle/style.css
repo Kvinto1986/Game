@@ -104,8 +104,11 @@ body {
 }
 
 #loading{
-    width: 90vw;
-    height: 2vw;
+    width: 98vw;
+
+    margin-top: 3%;
+
+    text-align: center;
 
     color: white;
 }

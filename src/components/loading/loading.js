@@ -146,9 +146,8 @@ module.exports = (battleAnimation, tasksArr, answersObj, modal, drawObj, animate
 
   loading();
 
-  const load = document.getElementById('loading');
   const int = setInterval(() => {
-    load.innerHTML = `Загрузка: ${Math.round((count / allCount) * 100)}%`;
+    $('#loading').text(`Загрузка: ${Math.round((count / allCount) * 100)}%`);
     if (allCount === count) {
       clearInterval(int);
     }
