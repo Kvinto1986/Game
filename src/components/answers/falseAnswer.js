@@ -1,13 +1,13 @@
 module.exports = (animationStart, animationFalse) => {
-  const audio = new Audio();
-  audio.src = '../../resources/sound/ahaha.mp3';
-  audio.load();
-  audio.play();
+  const audioEndgame = new Audio();
+  audioEndgame.src = '../../resources/sound/ahaha.mp3';
+  audioEndgame.load();
+  audioEndgame.play();
   function explode () {
-    const audio1 = new Audio();
-    audio1.src = '../../resources/sound/zvuki-udara.mp3';
-    audio1.load();
-    audio1.play();
+    const audioBeat = new Audio();
+    audioBeat.src = '../../resources/sound/zvuki-udara.mp3';
+    audioBeat.load();
+    audioBeat.play();
   }
   setTimeout(explode, 3000);
 

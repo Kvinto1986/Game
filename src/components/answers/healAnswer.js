@@ -1,9 +1,9 @@
 module.exports = (animationStart, animationHeal) => {
   function explode () {
-    const audio1 = new Audio();
-    audio1.src = '../../resources/sound/heal.mp3';
-    audio1.load();
-    audio1.play();
+    const audioHeal = new Audio();
+    audioHeal.src = '../../resources/sound/heal.mp3';
+    audioHeal.load();
+    audioHeal.play();
   }
   setTimeout(explode, 1800);
   animationStart(animationHeal);

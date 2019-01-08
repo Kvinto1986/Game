@@ -6,10 +6,10 @@ module.exports = (animationStart, animationTrue) => {
   audio.load();
   audio.play();
   function explode () {
-    const audio1 = new Audio();
-    audio1.src = '../../resources/sound/zvuki-udara.mp3';
-    audio1.load();
-    audio1.play();
+    const audioBeat = new Audio();
+    audioBeat.src = '../../resources/sound/zvuki-udara.mp3';
+    audioBeat.load();
+    audioBeat.play();
   }
   setTimeout(explode, 3000);
 
