@@ -9,7 +9,7 @@ module.exports = (animationStart, animationFalse) => {
     audioBeat.load();
     audioBeat.play();
   }
-  setTimeout(explode, 3000);
+  setTimeout(explode, 2500);
 
   animationStart(animationFalse);
 };
