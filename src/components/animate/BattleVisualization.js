@@ -30,12 +30,11 @@ module.exports = (tasksArr, answersObj, modal, drawObj, animateObj,
       content: div,
       timer: 3000,
       button: false
+    }).then(()=>{const audio = new Audio();
+      audio.src = '../../resources/sound/o-pozabavimsja.mp3';
+      audio.load();
+      audio.play();
     })
-      .then();
-    const audio = new Audio();
-    audio.src = '../../resources/sound/o-pozabavimsja.mp3';
-    audio.load();
-    audio.play();
   };
 
   const ctx = document.getElementById('canvas').getContext('2d');
